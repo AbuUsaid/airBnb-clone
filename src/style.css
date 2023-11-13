@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 nav {
@@ -37,16 +38,21 @@ section {
 }
 
 .hero--photo {
-    max-width: 400px;
+    max-width: 1000px;
     align-self: center;
+    margin-bottom: -80px;
 }
 
 .hero--header {
     margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 100px;
 }
 
 .hero--text {
     margin-top: 0;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .cards-list {
