@@ -41,4 +41,46 @@ export default [
     location: 'Norway',
     openSpots: 3,
   },
+  {
+    id: 4,
+    title: 'Cooking Masterclass with Chef Mia',
+    description:
+      'Join Chef Mia in a virtual cooking masterclass where she will teach you the art of creating exquisite dishes from scratch. Learn culinary techniques, secret ingredients, and presentation skills.',
+    price: 75,
+    coverImg: 'master-chef.jpg',
+    stats: {
+      rating: 4.9,
+      reviewCount: 12,
+    },
+    location: 'Online',
+    openSpots: 10,
+  },
+  {
+    id: 5,
+    title: 'Photography Workshop: Capturing Cityscapes',
+    description:
+      'Enhance your photography skills by capturing stunning cityscapes. This workshop covers composition, lighting, and post-processing techniques. Bring your camera and explore urban beauty!',
+    price: 90,
+    coverImg: 'cityscapes.jpg',
+    stats: {
+      rating: 4.5,
+      reviewCount: 5,
+    },
+    location: 'USA',
+    openSpots: 8,
+  },
+  {
+    id: 6,
+    title: 'Serene Bliss Houseboat',
+    description:
+      'Experience tranquility on the serene backwaters of Alleppey. This houseboat offers air-conditioned rooms, a spacious sundeck, and a cozy dining area.',
+    price: 150,
+    coverImg: 'houseboat.jpg',
+    stats: {
+      rating: 4.8,
+      reviewCount: 15,
+    },
+    location: 'India',
+    openSpots: 3,
+  },
 ];
